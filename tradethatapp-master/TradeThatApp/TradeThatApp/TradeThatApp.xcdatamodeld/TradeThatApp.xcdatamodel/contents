@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10118.6" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Items" syncable="YES"/>
+    <entity name="User" syncable="YES">
+        <attribute name="first" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Items" positionX="-63" positionY="-18" width="128" height="43"/>
+        <element name="User" positionX="-225" positionY="-162" width="128" height="73"/>
+    </elements>
+</model>

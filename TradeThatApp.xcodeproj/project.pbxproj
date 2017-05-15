@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50599BE1CB7F04F0049C6BA /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50599BD1CB7F04F0049C6BA /* Image.swift */; };
+		D517F1FD1CB89AE500B3B9C6 /* Items+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D517F1FB1CB89AE500B3B9C6 /* Items+CoreDataProperties.swift */; };
+		D517F1FE1CB89AE500B3B9C6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D517F1FC1CB89AE500B3B9C6 /* User+CoreDataProperties.swift */; };
+		D517F2001CB89B3E00B3B9C6 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = D517F1FF1CB89B3E00B3B9C6 /* Items.swift */; };
+		D517F2021CB89B4F00B3B9C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D517F2011CB89B4F00B3B9C6 /* User.swift */; };
+		D53B9DDD1CB48A7E0032DFC4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B9DDC1CB48A7E0032DFC4 /* FBSDKLoginKit.framework */; };
+		D53B9DDF1CB48A890032DFC4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B9DDE1CB48A890032DFC4 /* FBSDKCoreKit.framework */; };
+		D53B9DE11CB48AA60032DFC4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B9DE01CB48AA60032DFC4 /* FBSDKShareKit.framework */; };
+		D53B9DE31CB48AB00032DFC4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53B9DE21CB48AB00032DFC4 /* Bolts.framework */; };
+		D53B9DE71CB73F4F0032DFC4 /* ChooseLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B9DE61CB73F4F0032DFC4 /* ChooseLocationViewController.swift */; };
+		D554645A1CADE338007EDC8E /* AcceptDeclineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55464591CADE338007EDC8E /* AcceptDeclineViewController.swift */; };
+		D570F7291CB747C100757EDC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570F7281CB747C100757EDC /* UploadViewController.swift */; };
+		D5A0502D1CC0711C0058B9DA /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0502B1CC0711C0058B9DA /* Location+CoreDataProperties.swift */; };
+		D5A0502E1CC0711C0058B9DA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0502C1CC0711C0058B9DA /* Location.swift */; };
+		D5D4192E1CC6CB1B002F37B6 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D4192D1CC6CB1B002F37B6 /* LocationSearchTable.swift */; };
+		D5D419301CC6CB2C002F37B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D4192F1CC6CB2C002F37B6 /* ViewController.swift */; };
+		D5E76C0F1C6F7C1000669EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E76C0E1C6F7C1000669EEB /* AppDelegate.swift */; };
+		D5E76C141C6F7C1000669EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E76C121C6F7C1000669EEB /* Main.storyboard */; };
+		D5E76C171C6F7C1000669EEB /* TradeThatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5E76C151C6F7C1000669EEB /* TradeThatApp.xcdatamodeld */; };
+		D5E76C191C6F7C1000669EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E76C181C6F7C1000669EEB /* Assets.xcassets */; };
+		D5E76C1C1C6F7C1000669EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E76C1A1C6F7C1000669EEB /* LaunchScreen.storyboard */; };
+		D5E76C271C6F7C1000669EEB /* TradeThatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E76C261C6F7C1000669EEB /* TradeThatAppTests.swift */; };
+		D5E76C321C6F7C1000669EEB /* TradeThatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E76C311C6F7C1000669EEB /* TradeThatAppUITests.swift */; };
+		D5F3CE3E1CAB7EAD0050E6CB /* All.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F3CE3D1CAB7EAD0050E6CB /* All.plist */; };
+		D5F3CE401CAB83660050E6CB /* SmallStorage in Resources */ = {isa = PBXBuildFile; fileRef = D5F3CE3F1CAB83660050E6CB /* SmallStorage */; };
+		D5F3CE481CACE7870050E6CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE471CACE7870050E6CB /* LoginViewController.swift */; };
+		D5F3CE4A1CACE7B20050E6CB /* OptionBuySellTradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE491CACE7B20050E6CB /* OptionBuySellTradeViewController.swift */; };
+		D5F3CE4C1CACE7CC0050E6CB /* OptionMilesCityZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE4B1CACE7CC0050E6CB /* OptionMilesCityZipViewController.swift */; };
+		D5F3CE4E1CACE7F50050E6CB /* ThingsToBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE4D1CACE7F50050E6CB /* ThingsToBuyViewController.swift */; };
+		D5F3CE501CACE8170050E6CB /* TableViewCellDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE4F1CACE8170050E6CB /* TableViewCellDescriptionViewController.swift */; };
+		D5F3CE521CACE83D0050E6CB /* MeetingSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE511CACE83D0050E6CB /* MeetingSetupViewController.swift */; };
+		D5F3CE541CACE8570050E6CB /* TradeSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE531CACE8570050E6CB /* TradeSpotViewController.swift */; };
+		D5F3CE561CACE8740050E6CB /* MapPayPalPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE551CACE8740050E6CB /* MapPayPalPortalViewController.swift */; };
+		D5F3CE581CACE87E0050E6CB /* PayPalPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE571CACE87E0050E6CB /* PayPalPortalViewController.swift */; };
+		D5F3CE5A1CACE89B0050E6CB /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE591CACE89B0050E6CB /* ListingViewController.swift */; };
+		D5F3CE5C1CACE8A70050E6CB /* ListingSucceedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE5B1CACE8A70050E6CB /* ListingSucceedViewController.swift */; };
+		D5F3CE5E1CACE8B00050E6CB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE5D1CACE8B00050E6CB /* AccountViewController.swift */; };
+		D5F3CE601CACE8BC0050E6CB /* AccountItemListedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE5F1CACE8BC0050E6CB /* AccountItemListedViewController.swift */; };
+		D5F3CE621CACE8C50050E6CB /* AccountItemsBoughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE611CACE8C50050E6CB /* AccountItemsBoughtViewController.swift */; };
+		D5F3CE641CACE9750050E6CB /* CompleteTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CE631CACE9750050E6CB /* CompleteTransactionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E76C231C6F7C1000669EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E76C031C6F7C1000669EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E76C0A1C6F7C1000669EEB;
+			remoteInfo = TradeThatApp;
+		};
+		D5E76C2E1C6F7C1000669EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E76C031C6F7C1000669EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E76C0A1C6F7C1000669EEB;
+			remoteInfo = TradeThatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D50599BD1CB7F04F0049C6BA /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = TradeThatApp/Image.swift; sourceTree = "<group>"; };
+		D517F1FB1CB89AE500B3B9C6 /* Items+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Items+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D517F1FC1CB89AE500B3B9C6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D517F1FF1CB89B3E00B3B9C6 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		D517F2011CB89B4F00B3B9C6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D53B9DDC1CB48A7E0032DFC4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Downloads/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D53B9DDE1CB48A890032DFC4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Downloads/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D53B9DE01CB48AA60032DFC4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Downloads/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		D53B9DE21CB48AB00032DFC4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Downloads/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		D53B9DE61CB73F4F0032DFC4 /* ChooseLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseLocationViewController.swift; sourceTree = "<group>"; };
+		D55464591CADE338007EDC8E /* AcceptDeclineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptDeclineViewController.swift; sourceTree = "<group>"; };
+		D570F7281CB747C100757EDC /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadViewController.swift; path = ../UploadViewController.swift; sourceTree = "<group>"; };
+		D5A0502B1CC0711C0058B9DA /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D5A0502C1CC0711C0058B9DA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D5D4192D1CC6CB1B002F37B6 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		D5D4192F1CC6CB2C002F37B6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5E76C0B1C6F7C1000669EEB /* TradeThatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeThatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E76C0E1C6F7C1000669EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E76C131C6F7C1000669EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5E76C161C6F7C1000669EEB /* TradeThatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TradeThatApp.xcdatamodel; sourceTree = "<group>"; };
+		D5E76C181C6F7C1000669EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E76C1B1C6F7C1000669EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E76C1D1C6F7C1000669EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E76C221C6F7C1000669EEB /* TradeThatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeThatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E76C261C6F7C1000669EEB /* TradeThatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeThatAppTests.swift; sourceTree = "<group>"; };
+		D5E76C281C6F7C1000669EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E76C2D1C6F7C1000669EEB /* TradeThatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeThatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E76C311C6F7C1000669EEB /* TradeThatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeThatAppUITests.swift; sourceTree = "<group>"; };
+		D5E76C331C6F7C1000669EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F3CE3D1CAB7EAD0050E6CB /* All.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = All.plist; sourceTree = "<group>"; };
+		D5F3CE3F1CAB83660050E6CB /* SmallStorage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SmallStorage; sourceTree = "<group>"; };
+		D5F3CE471CACE7870050E6CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D5F3CE491CACE7B20050E6CB /* OptionBuySellTradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionBuySellTradeViewController.swift; sourceTree = "<group>"; };
+		D5F3CE4B1CACE7CC0050E6CB /* OptionMilesCityZipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionMilesCityZipViewController.swift; sourceTree = "<group>"; };
+		D5F3CE4D1CACE7F50050E6CB /* ThingsToBuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsToBuyViewController.swift; sourceTree = "<group>"; };
+		D5F3CE4F1CACE8170050E6CB /* TableViewCellDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellDescriptionViewController.swift; sourceTree = "<group>"; };
+		D5F3CE511CACE83D0050E6CB /* MeetingSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingSetupViewController.swift; sourceTree = "<group>"; };
+		D5F3CE531CACE8570050E6CB /* TradeSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeSpotViewController.swift; sourceTree = "<group>"; };
+		D5F3CE551CACE8740050E6CB /* MapPayPalPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPayPalPortalViewController.swift; sourceTree = "<group>"; };
+		D5F3CE571CACE87E0050E6CB /* PayPalPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPalPortalViewController.swift; sourceTree = "<group>"; };
+		D5F3CE591CACE89B0050E6CB /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		D5F3CE5B1CACE8A70050E6CB /* ListingSucceedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingSucceedViewController.swift; sourceTree = "<group>"; };
+		D5F3CE5D1CACE8B00050E6CB /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D5F3CE5F1CACE8BC0050E6CB /* AccountItemListedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountItemListedViewController.swift; sourceTree = "<group>"; };
+		D5F3CE611CACE8C50050E6CB /* AccountItemsBoughtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountItemsBoughtViewController.swift; sourceTree = "<group>"; };
+		D5F3CE631CACE9750050E6CB /* CompleteTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTransactionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E76C081C6F7C1000669EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53B9DDD1CB48A7E0032DFC4 /* FBSDKLoginKit.framework in Frameworks */,
+				D53B9DDF1CB48A890032DFC4 /* FBSDKCoreKit.framework in Frameworks */,
+				D53B9DE11CB48AA60032DFC4 /* FBSDKShareKit.framework in Frameworks */,
+				D53B9DE31CB48AB00032DFC4 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76C1F1C6F7C1000669EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76C2A1C6F7C1000669EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53B9DDB1CB48A4B0032DFC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D53B9DE21CB48AB00032DFC4 /* Bolts.framework */,
+				D53B9DE01CB48AA60032DFC4 /* FBSDKShareKit.framework */,
+				D53B9DDE1CB48A890032DFC4 /* FBSDKCoreKit.framework */,
+				D53B9DDC1CB48A7E0032DFC4 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D4192C1CC6CA34002F37B6 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				D5D4192D1CC6CB1B002F37B6 /* LocationSearchTable.swift */,
+				D5D4192F1CC6CB2C002F37B6 /* ViewController.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		D5D419311CC6D9EE002F37B6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D5A0502B1CC0711C0058B9DA /* Location+CoreDataProperties.swift */,
+				D5A0502C1CC0711C0058B9DA /* Location.swift */,
+				D517F1FB1CB89AE500B3B9C6 /* Items+CoreDataProperties.swift */,
+				D517F1FF1CB89B3E00B3B9C6 /* Items.swift */,
+				D517F2011CB89B4F00B3B9C6 /* User.swift */,
+				D517F1FC1CB89AE500B3B9C6 /* User+CoreDataProperties.swift */,
+				D50599BD1CB7F04F0049C6BA /* Image.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		D5E76C021C6F7C1000669EEB = {
+			isa = PBXGroup;
+			children = (
+				D5D4192C1CC6CA34002F37B6 /* Maps */,
+				D5D419311CC6D9EE002F37B6 /* CoreData */,
+				D53B9DDB1CB48A4B0032DFC4 /* Frameworks */,
+				D5E76C0D1C6F7C1000669EEB /* TradeThatApp */,
+				D5E76C251C6F7C1000669EEB /* TradeThatAppTests */,
+				D5E76C301C6F7C1000669EEB /* TradeThatAppUITests */,
+				D5E76C0C1C6F7C1000669EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E76C0C1C6F7C1000669EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C0B1C6F7C1000669EEB /* TradeThatApp.app */,
+				D5E76C221C6F7C1000669EEB /* TradeThatAppTests.xctest */,
+				D5E76C2D1C6F7C1000669EEB /* TradeThatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E76C0D1C6F7C1000669EEB /* TradeThatApp */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C401C6FA2A800669EEB /* Others */,
+				D5E76C3F1C6FA29E00669EEB /* Controllers */,
+				D5E76C411C6FA2B300669EEB /* Storyboards & Xibs */,
+				D5E76C431C6FA2D300669EEB /* Assets (Images) */,
+				D5E76C421C6FA2BD00669EEB /* CoreData */,
+			);
+			path = TradeThatApp;
+			sourceTree = "<group>";
+		};
+		D5E76C251C6F7C1000669EEB /* TradeThatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C261C6F7C1000669EEB /* TradeThatAppTests.swift */,
+				D5E76C281C6F7C1000669EEB /* Info.plist */,
+			);
+			path = TradeThatAppTests;
+			sourceTree = "<group>";
+		};
+		D5E76C301C6F7C1000669EEB /* TradeThatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C311C6F7C1000669EEB /* TradeThatAppUITests.swift */,
+				D5E76C331C6F7C1000669EEB /* Info.plist */,
+			);
+			path = TradeThatAppUITests;
+			sourceTree = "<group>";
+		};
+		D5E76C3F1C6FA29E00669EEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D570F7281CB747C100757EDC /* UploadViewController.swift */,
+				D5F3CE471CACE7870050E6CB /* LoginViewController.swift */,
+				D5F3CE491CACE7B20050E6CB /* OptionBuySellTradeViewController.swift */,
+				D55464591CADE338007EDC8E /* AcceptDeclineViewController.swift */,
+				D5F3CE4B1CACE7CC0050E6CB /* OptionMilesCityZipViewController.swift */,
+				D5F3CE4D1CACE7F50050E6CB /* ThingsToBuyViewController.swift */,
+				D5F3CE4F1CACE8170050E6CB /* TableViewCellDescriptionViewController.swift */,
+				D5F3CE511CACE83D0050E6CB /* MeetingSetupViewController.swift */,
+				D5F3CE531CACE8570050E6CB /* TradeSpotViewController.swift */,
+				D5F3CE551CACE8740050E6CB /* MapPayPalPortalViewController.swift */,
+				D5F3CE571CACE87E0050E6CB /* PayPalPortalViewController.swift */,
+				D5F3CE591CACE89B0050E6CB /* ListingViewController.swift */,
+				D5F3CE5B1CACE8A70050E6CB /* ListingSucceedViewController.swift */,
+				D5F3CE5D1CACE8B00050E6CB /* AccountViewController.swift */,
+				D5F3CE5F1CACE8BC0050E6CB /* AccountItemListedViewController.swift */,
+				D5F3CE611CACE8C50050E6CB /* AccountItemsBoughtViewController.swift */,
+				D5F3CE3F1CAB83660050E6CB /* SmallStorage */,
+				D5F3CE631CACE9750050E6CB /* CompleteTransactionViewController.swift */,
+				D53B9DE61CB73F4F0032DFC4 /* ChooseLocationViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5E76C401C6FA2A800669EEB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C0E1C6F7C1000669EEB /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		D5E76C411C6FA2B300669EEB /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C121C6F7C1000669EEB /* Main.storyboard */,
+				D5E76C1A1C6F7C1000669EEB /* LaunchScreen.storyboard */,
+			);
+			name = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		D5E76C421C6FA2BD00669EEB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C151C6F7C1000669EEB /* TradeThatApp.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		D5E76C431C6FA2D300669EEB /* Assets (Images) */ = {
+			isa = PBXGroup;
+			children = (
+				D5E76C1D1C6F7C1000669EEB /* Info.plist */,
+				D5E76C181C6F7C1000669EEB /* Assets.xcassets */,
+				D5F3CE3D1CAB7EAD0050E6CB /* All.plist */,
+			);
+			name = "Assets (Images)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E76C0A1C6F7C1000669EEB /* TradeThatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E76C361C6F7C1000669EEB /* Build configuration list for PBXNativeTarget "TradeThatApp" */;
+			buildPhases = (
+				D5E76C071C6F7C1000669EEB /* Sources */,
+				D5E76C081C6F7C1000669EEB /* Frameworks */,
+				D5E76C091C6F7C1000669EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeThatApp;
+			productName = TradeThatApp;
+			productReference = D5E76C0B1C6F7C1000669EEB /* TradeThatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E76C211C6F7C1000669EEB /* TradeThatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E76C391C6F7C1000669EEB /* Build configuration list for PBXNativeTarget "TradeThatAppTests" */;
+			buildPhases = (
+				D5E76C1E1C6F7C1000669EEB /* Sources */,
+				D5E76C1F1C6F7C1000669EEB /* Frameworks */,
+				D5E76C201C6F7C1000669EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E76C241C6F7C1000669EEB /* PBXTargetDependency */,
+			);
+			name = TradeThatAppTests;
+			productName = TradeThatAppTests;
+			productReference = D5E76C221C6F7C1000669EEB /* TradeThatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E76C2C1C6F7C1000669EEB /* TradeThatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E76C3C1C6F7C1000669EEB /* Build configuration list for PBXNativeTarget "TradeThatAppUITests" */;
+			buildPhases = (
+				D5E76C291C6F7C1000669EEB /* Sources */,
+				D5E76C2A1C6F7C1000669EEB /* Frameworks */,
+				D5E76C2B1C6F7C1000669EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E76C2F1C6F7C1000669EEB /* PBXTargetDependency */,
+			);
+			name = TradeThatAppUITests;
+			productName = TradeThatAppUITests;
+			productReference = D5E76C2D1C6F7C1000669EEB /* TradeThatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E76C031C6F7C1000669EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Couchbase Training";
+				TargetAttributes = {
+					D5E76C0A1C6F7C1000669EEB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 86773TB4HG;
+					};
+					D5E76C211C6F7C1000669EEB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 86773TB4HG;
+						TestTargetID = D5E76C0A1C6F7C1000669EEB;
+					};
+					D5E76C2C1C6F7C1000669EEB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 86773TB4HG;
+						TestTargetID = D5E76C0A1C6F7C1000669EEB;
+					};
+				};
+			};
+			buildConfigurationList = D5E76C061C6F7C1000669EEB /* Build configuration list for PBXProject "TradeThatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E76C021C6F7C1000669EEB;
+			productRefGroup = D5E76C0C1C6F7C1000669EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E76C0A1C6F7C1000669EEB /* TradeThatApp */,
+				D5E76C211C6F7C1000669EEB /* TradeThatAppTests */,
+				D5E76C2C1C6F7C1000669EEB /* TradeThatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E76C091C6F7C1000669EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F3CE3E1CAB7EAD0050E6CB /* All.plist in Resources */,
+				D5F3CE401CAB83660050E6CB /* SmallStorage in Resources */,
+				D5E76C1C1C6F7C1000669EEB /* LaunchScreen.storyboard in Resources */,
+				D5E76C191C6F7C1000669EEB /* Assets.xcassets in Resources */,
+				D5E76C141C6F7C1000669EEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76C201C6F7C1000669EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76C2B1C6F7C1000669EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E76C071C6F7C1000669EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D517F2021CB89B4F00B3B9C6 /* User.swift in Sources */,
+				D5F3CE601CACE8BC0050E6CB /* AccountItemListedViewController.swift in Sources */,
+				D517F2001CB89B3E00B3B9C6 /* Items.swift in Sources */,
+				D570F7291CB747C100757EDC /* UploadViewController.swift in Sources */,
+				D517F1FE1CB89AE500B3B9C6 /* User+CoreDataProperties.swift in Sources */,
+				D5A0502D1CC0711C0058B9DA /* Location+CoreDataProperties.swift in Sources */,
+				D5A0502E1CC0711C0058B9DA /* Location.swift in Sources */,
+				D5D4192E1CC6CB1B002F37B6 /* LocationSearchTable.swift in Sources */,
+				D517F1FD1CB89AE500B3B9C6 /* Items+CoreDataProperties.swift in Sources */,
+				D50599BE1CB7F04F0049C6BA /* Image.swift in Sources */,
+				D5F3CE481CACE7870050E6CB /* LoginViewController.swift in Sources */,
+				D5F3CE4A1CACE7B20050E6CB /* OptionBuySellTradeViewController.swift in Sources */,
+				D5F3CE4C1CACE7CC0050E6CB /* OptionMilesCityZipViewController.swift in Sources */,
+				D5F3CE561CACE8740050E6CB /* MapPayPalPortalViewController.swift in Sources */,
+				D554645A1CADE338007EDC8E /* AcceptDeclineViewController.swift in Sources */,
+				D5E76C0F1C6F7C1000669EEB /* AppDelegate.swift in Sources */,
+				D5F3CE5A1CACE89B0050E6CB /* ListingViewController.swift in Sources */,
+				D5F3CE581CACE87E0050E6CB /* PayPalPortalViewController.swift in Sources */,
+				D5F3CE501CACE8170050E6CB /* TableViewCellDescriptionViewController.swift in Sources */,
+				D5F3CE621CACE8C50050E6CB /* AccountItemsBoughtViewController.swift in Sources */,
+				D5D419301CC6CB2C002F37B6 /* ViewController.swift in Sources */,
+				D5F3CE4E1CACE7F50050E6CB /* ThingsToBuyViewController.swift in Sources */,
+				D5F3CE641CACE9750050E6CB /* CompleteTransactionViewController.swift in Sources */,
+				D53B9DE71CB73F4F0032DFC4 /* ChooseLocationViewController.swift in Sources */,
+				D5F3CE5C1CACE8A70050E6CB /* ListingSucceedViewController.swift in Sources */,
+				D5F3CE5E1CACE8B00050E6CB /* AccountViewController.swift in Sources */,
+				D5F3CE541CACE8570050E6CB /* TradeSpotViewController.swift in Sources */,
+				D5E76C171C6F7C1000669EEB /* TradeThatApp.xcdatamodeld in Sources */,
+				D5F3CE521CACE83D0050E6CB /* MeetingSetupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76C1E1C6F7C1000669EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E76C271C6F7C1000669EEB /* TradeThatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E76C291C6F7C1000669EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E76C321C6F7C1000669EEB /* TradeThatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E76C241C6F7C1000669EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E76C0A1C6F7C1000669EEB /* TradeThatApp */;
+			targetProxy = D5E76C231C6F7C1000669EEB /* PBXContainerItemProxy */;
+		};
+		D5E76C2F1C6F7C1000669EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E76C0A1C6F7C1000669EEB /* TradeThatApp */;
+			targetProxy = D5E76C2E1C6F7C1000669EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E76C121C6F7C1000669EEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E76C131C6F7C1000669EEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5E76C1A1C6F7C1000669EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E76C1B1C6F7C1000669EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E76C341C6F7C1000669EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/blai1/Downloads/FacebookSDK;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E76C351C6F7C1000669EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/blai1/Downloads/FacebookSDK;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E76C371C6F7C1000669EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TradeThatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.training.TradeThatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D5E76C381C6F7C1000669EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TradeThatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.training.TradeThatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D5E76C3A1C6F7C1000669EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeThatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.training.TradeThatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeThatApp.app/TradeThatApp";
+			};
+			name = Debug;
+		};
+		D5E76C3B1C6F7C1000669EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeThatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.training.TradeThatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeThatApp.app/TradeThatApp";
+			};
+			name = Release;
+		};
+		D5E76C3D1C6F7C1000669EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeThatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.training.TradeThatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeThatApp;
+			};
+			name = Debug;
+		};
+		D5E76C3E1C6F7C1000669EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeThatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.training.TradeThatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeThatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E76C061C6F7C1000669EEB /* Build configuration list for PBXProject "TradeThatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76C341C6F7C1000669EEB /* Debug */,
+				D5E76C351C6F7C1000669EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E76C361C6F7C1000669EEB /* Build configuration list for PBXNativeTarget "TradeThatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76C371C6F7C1000669EEB /* Debug */,
+				D5E76C381C6F7C1000669EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E76C391C6F7C1000669EEB /* Build configuration list for PBXNativeTarget "TradeThatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76C3A1C6F7C1000669EEB /* Debug */,
+				D5E76C3B1C6F7C1000669EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E76C3C1C6F7C1000669EEB /* Build configuration list for PBXNativeTarget "TradeThatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E76C3D1C6F7C1000669EEB /* Debug */,
+				D5E76C3E1C6F7C1000669EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5E76C151C6F7C1000669EEB /* TradeThatApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5E76C161C6F7C1000669EEB /* TradeThatApp.xcdatamodel */,
+			);
+			currentVersion = D5E76C161C6F7C1000669EEB /* TradeThatApp.xcdatamodel */;
+			path = TradeThatApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5E76C031C6F7C1000669EEB /* Project object */;
+}
